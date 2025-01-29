@@ -1,0 +1,39 @@
+# Ignore environment variable files
+.env
+# Ignore sensitive files
+*.pem
+*.key
+# Ignore node_modules directory
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore build output
+dist/
+build/
+
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore local environment configuration
+local.env
+
+# Ignore npm debug files
+npm-debug.log*
+# Ignore all node modules
+node_modules/
+# Ignore IDE specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
